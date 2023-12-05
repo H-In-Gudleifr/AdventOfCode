@@ -29,18 +29,19 @@ public class PartTwo {
                             pattern = Pattern.compile(regex);
                             Matcher matcherColor = pattern.matcher(subsequence);
                             while (matcherColor.find()) {
+                                int Number = Integer.parseInt(matcherColor.group().split(" ")[0]);
                                 switch (color) {
                                     case "red" -> {
-                                        if (redOptimal < Integer.parseInt(matcherColor.group().split(" ")[0]))
-                                            redOptimal = Integer.parseInt(matcherColor.group().split(" ")[0]);
+                                        if (redOptimal < Number)
+                                            redOptimal = Number;
                                     }
                                     case "blue" -> {
-                                        if (blueOptimal < Integer.parseInt(matcherColor.group().split(" ")[0]))
-                                            blueOptimal = Integer.parseInt(matcherColor.group().split(" ")[0]);
+                                        if (blueOptimal < Number)
+                                            blueOptimal = Number;
                                     }
                                     case "green" -> {
-                                        if (greenOptimal < Integer.parseInt(matcherColor.group().split(" ")[0]))
-                                            greenOptimal = Integer.parseInt(matcherColor.group().split(" ")[0]);
+                                        if (greenOptimal < Number)
+                                            greenOptimal = Number;
                                     }
                                 }
                             }
@@ -51,8 +52,8 @@ public class PartTwo {
                 result += redOptimal * greenOptimal * blueOptimal;
                 System.out.println("Game " + gameNumber + " Red " + redOptimal + " Blue " + blueOptimal + " Green " + greenOptimal);
                 gameNumber++;
-                System.out.println(result);
             }
+            System.out.println(result);
         } catch (IOException e){
             System.out.println("File reading problem :<");
         }
