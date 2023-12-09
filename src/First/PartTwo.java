@@ -20,6 +20,7 @@ public class PartTwo {
                     } else {
                         tab[i] = Number(arr[i]);
                     }
+
                 }
                 sum += tab[0] * 10 + tab[tab.length - 1];
             }
