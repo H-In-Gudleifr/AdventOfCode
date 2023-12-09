@@ -20,7 +20,6 @@ public class PartTwo {
                     } else {
                         tab[i] = Number(arr[i]);
                     }
-
                 }
                 sum += tab[0] * 10 + tab[tab.length - 1];
             }
@@ -39,7 +38,6 @@ public class PartTwo {
         }
         return answer;
     }
-
     public static String[] Sorted (String s) {
         String regex = "" + "(one|two|three|four|five|six|seven|eight|nine|onenine|oneight|twone|eightwo|\\d)" + "";
         return Pattern.compile(regex)

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32b7499-a121-4330-8f20-f0cca2330a02" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/Third/PartOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Third/PartTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/First/PartTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First/PartTwo.java" afterDir="false" />
-    </list>
+    <list default="true" id="c32b7499-a121-4330-8f20-f0cca2330a02" name="Changes" comment="PartOne.java I could make better" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701809843678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PartOne.java I could make better">
+      <created>1702156829877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702156829877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,24 +186,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="PartOne.java I could make better" />
+    <option name="LAST_COMMIT_MESSAGE" value="PartOne.java I could make better" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Third/PartOne.java</url>
-          <line>112</line>
+          <line>113</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Third/PartTwo.java</url>
-          <line>63</line>
-          <properties class="Third.PartTwo" method="findFullNumber">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
